@@ -7,5 +7,7 @@
   developers cloning this repo won't be able to run the project as is.
  */
 module.exports = {
+  JWT_SECRET: process.env.JWT_SECRET || 'add a third table for many to many',
+  BCRYPT_ROUNDS: process.env.BCRYPT_ROUNDS || 8
 
 }
